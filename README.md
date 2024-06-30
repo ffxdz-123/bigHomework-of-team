@@ -1,2 +1,3 @@
-# bigHomework-of-team
-基于AI大模型的的智能绘图项目
+# bigHomework-of-team  基于AI大模型的的智能绘图项目
+项目成员：南开大学软件学院22级本科生 王春阳 涂峥越 黄泽舜 李盛熙
+
