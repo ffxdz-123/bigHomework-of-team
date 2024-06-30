@@ -14,4 +14,5 @@
 -  （1）创作版
 -   ![图片](https://github.com/ffxdz-123/bigHomework-of-team/assets/174222088/ef79ac61-b591-4a7a-8448-fc7e53e80080)
 -  （2）教育版
--   [图片](https://github.com/ffxdz-123/bigHomework-of-team/assets/174222088/1d3ca58c-e607-45a5-9e27-26b06049a9d4)
+-   ![图片](https://github.com/ffxdz-123/bigHomework-of-team/assets/174222088/dd5f43be-e4d2-40b8-a341-87046ac8c168)
+
