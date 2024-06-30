@@ -11,9 +11,9 @@
 -  将生成的创作内容进行调整
 -  保存生成内容到本地
 ## 项目运行流程：
--  （1）创作版
+-  创作版
 -   ![图片](https://github.com/ffxdz-123/bigHomework-of-team/assets/174222088/ef79ac61-b591-4a7a-8448-fc7e53e80080)
--  （2）教育版
+-  教育版
 -   ![图片](https://github.com/ffxdz-123/bigHomework-of-team/assets/174222088/dd5f43be-e4d2-40b8-a341-87046ac8c168)
 
 ## 项目优势：
