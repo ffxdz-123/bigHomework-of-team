@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">你想要看些什么呢？</h1>
+        </div>
+        <div class="tline">
+            <div class="ids">小狗</div>
+            <div class="ids">猫</div>
+            <div class="ids">阳光</div>
+            <div class="ids">瓢虫</div>
+            <div class="ids">花儿</div>
+            <div class="ids">月亮</div>
+            <div class="ids2">山脉</div>
+            <div class="ids2">独角兽</div>
+            <div class="ids2">黑天鹅</div>
+            <div class="ids2">城堡</div>
+            <div class="ids2">大海</div>
+            <div class="ids2">星星</div>
+        </div>
+        <div class="show_pic">
+            <img class="pic" id="dog_image" src="https://ai-painting-image.vivo.com.cn/ai-painting/763783fb01ad3b8d732a5e179205ccbafd4728b3-0.jpg" alt="dog">
+            <img class="pic" id="cat_image" src="https://ai-painting-image.vivo.com.cn/ai-painting/763783fbd9fdeceb1bf2515f93ee7d9e1ec6e1bc-0.jpg" alt="cat">
+            <img class="pic" id="flower_image" src="https://ai-painting-image.vivo.com.cn/ai-painting/763783fb521d8e4200b9597aaf97a1c5673e8cb5-0.jpg" alt="flower">
+            <img class="pic" id="pig_image" src="https://ai-painting-image.vivo.com.cn/ai-painting/763783fbd1dc434ee906572e8e7a2c113801699a-0.jpg" alt="pig">
+        </div>
+        <div class="input-section">
+            <p class="ques">你想认识什么？</p>
+            <input class="input_message" id="requirement" placeholder="请输入内容" oninput="handleInput()">
+            <button class="submit-button" bindtap="generate">提交</button>
+        </div>
+        <div class="description-container">
+            <p class="tx2">它是什么样子的:</p>
+            <div class="anspic_container">
+                <img class="anspic" id="res_pic" src="https://ai-painting-image.vivo.com.cn/ai-painting/763783fb004706ed8741545d9ce213d23f413e17-0.jpg" alt="result">
+            </div>
+            <div class="story_container">
+                <p class="tx3" id="res_story">我会在这里为你讲述ta的故事</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

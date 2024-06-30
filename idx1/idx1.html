@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> 智绘图 </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="topp"></div>
+  <div class="container">
+    <h2 class="subtitle">来生成你想要的图片吧！</h2>
+    <div class="content">
+      <div class="image-grid">
+        <div class="image-item" id="image1"></div>
+        <div class="image-item" id="image2"></div>
+        <div class="image-item" id="image3"></div>
+        <div class="image-item" id="image4"></div>
+      </div>
+      <p class="DIY-TEXT">请输入你的要求</p>
+      <input type="text" class="input" id="requirementInput">
+      <button class="generate-button" id="generateButton">生成图片</button>
+      <div class="input-images">
+        <div class="input-image" id="inputImage1"></div>
+        <div class="input-image" id="inputImage2"></div>
+        <div class="input-image" id="inputImage3"></div>
+      </div>
+      <button class="save-button" id="saveButton">保存到相册</button>
+      <div class="controls">
+        <p class="sizecontrol">调整宽度(默认为576)</p>
+        <input type="range" class="width-slider" id="widthSlider" min="200" max="1000" value="576">
+        <p class="sizecontrol">调整高度(默认为768)</p>
+        <input type="range" class="height-slider" id="heightSlider" min="200" max="1000" value="768">
+      </div>
+      <div class="style-buttons-container">
+        <button class="style-change" id="style1">通用1(默认)</button>
+        <button class="style-change" id="style2">通用2</button>
+        <button class="style-change" id="style3">梦幻动漫</button>
+        <button class="style-change" id="style4">唯美写实</button>
+        <button class="style-change" id="style5">绯红烈焰</button>
+        <button class="style-change" id="style6">彩绘日漫</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
